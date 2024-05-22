@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-color: #252525a8;
+    overflow-x: hidden;
+}
+.nev-container{
+    height: 100%;
+    width: 100%;
+    background-image: url('./IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.darkeffect{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.339);
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    height: 68px;
+}
+.signin{
+    display: flex;
+    gap: 0.6rem;
+}
+.signin select ,#lang{
+    width: fit-content;
+    height: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: transparent;
+}
+.signin select option{
+    background-color: black;
+}
+.signin button{
+    width: fit-content;
+    height: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e50914;
+}
+.membership{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.membership h2{
+    font-size: 48px;
+}
+.membership h5{
+    font-size: 24px;
+}
+.membership #h5-1{
+    font-size: 16px;
+}
+.emailsection input{
+    width: 26vw;
+    height: 52px;
+    border: 1px solid white;
+    background-color: #252525a8;
+    border-radius: 4px;
+    padding-left: 8px;
+    color: white;
+}
+.emailsection button{
+    width: 12vw;
+    height: 52px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+}
+
+/* New Box css */
+.videocont-1 , .down-watch , .videocont-2{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    padding: 2rem;
+    height: 35vw;
+}
+.vd-textcontent-1 , .vd-textcontent-2,.d-w-1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.vd-textcontent-1,.vd-textcontent-2 ,.d-w-1 h1{
+    font-size: 48px;
+}
+.vd-textcontent-1,.vd-textcontent-2,.d-w-1 h7{
+    font-size: 24px;
+}
+.vd-div-1{
+    position: relative;
+    width: fit-content;
+}
+.vd-div-1 img{
+    width: 32vw;
+    position: absolute;
+    top: -5vw;
+    left: -4.3vw;
+}
+.vd-div-1 video{
+    width: 23vw;
+}
+/* New Box css */
+.d-w-2 img{
+    width: 40vw;
+}
+.vd-div-2{
+    position: relative;
+}
+.vd-div-2 img{
+    width: 36vw;
+    position: absolute;
+    top: -2vw;
+    left: -6.3vw;
+}
+.vd-div-2 video{
+    width: 23vw;
+}
+/* New Box css */
+.faq{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 8px;
+}
+.faq h1{
+    font-size: 48px;
+}
+.faq p{
+    font-size: 24px;
+}
+.questions{
+    width: 100%;
+    height: 50%;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+.qn-an-1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.qn1{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 6vw;
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    z-index: 1;
+}
+.an1{
+    padding: 2vw;
+    height: fit-content;
+    width: 100%;
+    margin-top: 0.1vw;
+background-color: #252525;
+
+
+}
+.onclickchange1{
+    opacity: 0;
+    position: absolute;
+    top: 2vw;
+    overflow: hidden;
+    transition: 0.1s ease-out;
+}
+.onclickchange2{
+    top: 6vw;
+    opacity: 1;
+    max-height: 200px;
+    transition: 1s ease-out;
+}
+.em1{
+    margin-top: 6vh;
+}
+/* New Box css */
+footer{
+    margin-top: 1vh;
+    background-color: black;
+    padding: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.li1,.li2,.li3,.li4{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+.li1,.li2,.li3,.li4,a{
+    color: #aaaaaa;
+}
